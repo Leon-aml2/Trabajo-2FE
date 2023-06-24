@@ -51,82 +51,48 @@
         </div>
     </section>
 
-    <section class="info">
-        <div class="contenedor">
-            <h2 class="titulo left">Interésate en nuestros Productos y especialmente tu Resultado</h2>
-            <p>Nunca es tarde para intentarlo una vez más</p>
-        </div>
-    </section>
-
-    <section class="cards contenedor" id="servicios">
-        <h2 class="titulo">Nuestros Servicios</h2>
-        <div class="content-cards">
-            <article class="card">
-                <svg class="i" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: #ABEBC6;transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg>
-                <h3>Suma tu aporte</h3>
-                <p>Agrega y Comparte nuevos diseños</p>
-                <a href="" class="cta">Compartir</a>
-            </article>
-            <article class="card">
-                <svg class="i" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: #ABEBC6;transform: ;msFilter:;"><path d="M20 7h-4V4c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H4c-1.103 0-2 .897-2 2v9a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V9c0-1.103-.897-2-2-2zM4 11h4v8H4v-8zm6-1V4h4v15h-4v-9zm10 9h-4V9h4v10z"></path></svg>
-                <h3>Regálanos tu opinión</h3>
-                <p>Valora tu trabajo y el de otros Usuarios</p>
-                <a href="" class="cta">Valorar otros</a>
-            </article>  
-            <article class="card">
-                <svg class="i" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: #ABEBC6;transform: ;msFilter:;"><path d="M8 12.052c1.995 0 3.5-1.505 3.5-3.5s-1.505-3.5-3.5-3.5-3.5 1.505-3.5 3.5 1.505 3.5 3.5 3.5zM9 13H7c-2.757 0-5 2.243-5 5v1h12v-1c0-2.757-2.243-5-5-5zm11.294-4.708-4.3 4.292-1.292-1.292-1.414 1.414 2.706 2.704 5.712-5.702z"></path></svg>
-                <h3>Registrate</h3>
-                <p>Puedes participar anonimamente o ser la imagen de tus diseños</p>
-                <a href="" class="cta">Registrar</a>
-            </article>  
-        </div>
-    </section>
-
-    <section class="galeria" id="trabajo">
-        <div class="contenedor">
-            <h2 class="titulo">Muestras</h2>
-            <article class="galeria-cont">
-                <img src="Imágenes cuerpo/ourWork/WhatsApp Image 2023-05-03 at 19.52.43.jpeg" alt="">
-                <img src="Imágenes cuerpo/ourWork/WhatsApp Image 2023-05-03 at 19.52.44 (1).jpeg" alt="">
-                <img src="Imágenes cuerpo/ourWork/WhatsApp Image 2023-05-03 at 19.52.44 (2).jpeg" alt="">
-                <img src="Imágenes cuerpo/ourWork/WhatsApp Image 2023-05-03 at 19.52.44 (3).jpeg" alt="">
-                <img src="Imágenes cuerpo/ourWork/WhatsApp Image 2023-05-03 at 19.52.44.jpeg" alt="">
-                <img src="Imágenes cuerpo/ourWork/másOPciones.png" alt="">
-            </article>
-        </div>
-    </section>
-
-    <section class="info-last" id="ultimo">
-        <div class="contenedor last-section">
-            <div class="contenedor-textos-main">
-                <h2 class="titulo left">Disfruta en tu medio móvil ésta etapa Virtual</h2>
-                <p class="parrafo">Mantente conectado y pendiente de otros potenciales ejemplos de cómo es un buen Currículum</p>
-                <a href="" class="cta">Leer Más</a>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/J9zGQcvrLXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        
-        <div class="svg-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ABEBC6;"></path></svg></div>
-    </section>
-
     <footer id="contacto">
-        <div class="contenedor">
+        <div class="contenedor" id="contacto-contenedor">
             <h2 class="titulo">Contactanos</h2>
-            <form action="" class="form">
-                <input class="input" type="text" name="" id="" placeholder="Nombre">
-                <input class="input" type="email" name="" id="" placeholder="Email">
-                <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <input class="input" type="submit" value="Enviar">
+            <form class="formulario">
+                <!-- INPUTS NOMBRE_APELLIDO_APELLIDO MATERNO_RUT-->
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre"><br>
+                <label for="apellido">Apellido Paterno: </label>
+                <input type="text" id="apellido"><br>
+                <label for="apellidoMaterno">Apellido Materno: </label>
+                <input type="text"id="apellidoMaterno"><br>
+                <label for="rut">RUT: </label>
+                <input type="text" id="rut"><br>
+                
+                <label for="correo" >Ingresa tu correo: </label>
+                <input type="email" id="" name="correo"><br>
+                <label for="email">Confirma tu correo: </label>
+                <input type="email" id="email"><br>
+                <label for="inscrito" >N° inscripción: </label>
+                <input type="number" id="" name="inscrito"><br>
+                <label for="nIscripcion">Confirma n° inscripción: </label>
+                <input type="number" id="nIscripcion"><br>
+                
+                <button type="button" id="btnRevisa">Revisa los campos</button>
+                <!-- BOTON-REGISTRAR BTN -->
+                <button type="button" id="btn">Registra</button>
+                <!-- SPAN sBtnAccion -->
+                <span id="sBtnAccion">
+        
+                </span>
             </form>
+        
+            <!-- CONTENEDOR-TABLA contenedorTabla-->
+            <div id="contenedorTabla" class="contenedorTabla">
+        
+            </div>
+             
         </div>
     </footer>
-    
-    <section class="contenedor-icon">
-        <div class="iconos">
-            <article class="icono"><a href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg></a></article>
-            <article class="icono"><a href="https://discord.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M14.82 4.26a10.14 10.14 0 0 0-.53 1.1 14.66 14.66 0 0 0-4.58 0 10.14 10.14 0 0 0-.53-1.1 16 16 0 0 0-4.13 1.3 17.33 17.33 0 0 0-3 11.59 16.6 16.6 0 0 0 5.07 2.59A12.89 12.89 0 0 0 8.23 18a9.65 9.65 0 0 1-1.71-.83 3.39 3.39 0 0 0 .42-.33 11.66 11.66 0 0 0 10.12 0q.21.18.42.33a10.84 10.84 0 0 1-1.71.84 12.41 12.41 0 0 0 1.08 1.78 16.44 16.44 0 0 0 5.06-2.59 17.22 17.22 0 0 0-3-11.59 16.09 16.09 0 0 0-4.09-1.35zM8.68 14.81a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.93 1.93 0 0 1 1.8 2 1.93 1.93 0 0 1-1.8 2zm6.64 0a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.92 1.92 0 0 1 1.8 2 1.92 1.92 0 0 1-1.8 2z"></path></svg></a></article>
-        </div>
-    </section>
+    <!-- SCRIPT -->
+    <script src="process.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
 </body>
 </html>
